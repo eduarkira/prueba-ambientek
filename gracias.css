@@ -1,0 +1,1314 @@
+body{
+    
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.contenedor{
+    
+    max-width: 1280px;
+    width: 95%;
+    margin: auto;
+
+
+    
+}
+
+
+header .contenedor {
+    
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+
+  
+}
+
+header{
+    
+    background-image: url(../img/banner/prueba.jpg);
+    height: 98vh;;
+    background-size: cover;
+}
+
+.contenedor-titulo a{
+    
+    font-size: 14px;
+    color: white;
+    background: green;
+    padding: 14px 24px;
+    text-align: center;
+    display: inline-block;
+    border: 1px green solid;
+    
+    
+    
+    
+}
+
+#contenedor-titulo-flex{
+    
+    margin: 18vh 12vh;
+ 
+    
+}
+
+h1{
+    
+    font-size: 40px;
+    color: black;
+    
+}
+
+h2{
+    
+    font-size: 25px;
+    color: black;
+    
+}
+
+
+#logo-home{
+    
+    width: 200px;
+    height: 57px;
+}
+
+/*SECCION MENU */
+
+header ul{
+    
+    display: flex;
+    
+}
+
+header li{
+    
+    list-style: none;
+    margin-right: 20px;
+}
+
+a{
+    
+    text-decoration: none;
+    
+}
+
+
+nav ul li a{
+    
+    color:green;
+    padding-bottom: 13px;
+    padding-top: 10px;
+    font-size: 16px;
+  
+
+
+    
+    
+}
+
+nav ul li a:hover{
+    
+    text-decoration: underline;
+    transition: 0.5s;
+    padding-bottom: 13px;
+    padding-top: 10px;
+
+  
+}
+
+h3{
+    
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    margin-left: 10px;
+
+}
+
+/*SECCION SOBRE NOSOTROS */
+
+#sobre-nosotros .contenedor-sobrenosotros{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    
+}
+
+
+#sobre-nosotros .texto{
+    
+    width: 42%;
+    color: #7B7676;
+    text-align: justify;
+    
+}
+
+#sobre-nosotros h3{
+    
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    margin-left: 10px;
+    
+}
+
+#sobre-nosotros a{
+    
+    color: green;
+    font-size: 15px;
+    background: white;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+    border: 1px green solid;
+    
+}
+
+
+ #sobre-nosotros a:hover{
+    
+    color: white;
+    background: green;
+    transition: 0.5s;
+    
+}
+
+.contenedor-unidades-negocio{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+/*SECCION UNIDADES DE NEGOCIO */
+
+#unidades-negocio .item{
+    width: 28%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    
+    
+}
+
+#unidades-negocio .item-alcomaquinas-unidad{
+    width: 60%;
+    text-align:left;
+    padding-top: 45px;
+    padding-bottom: 20px;
+
+    
+    
+}
+
+#unidades-negocio .item-alcomaquinas{
+    width: 32%;
+    text-align:justify;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    color: #7B7676;
+    
+    
+}
+
+#unidades-negocio .item-ambientek-unidad{
+    width: 60%;
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 20px;
+    
+    
+}
+
+
+#unidades-negocio .item-ambientek{
+    width: 32%;
+    text-align:justify;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    color: #7B7676;
+    
+    
+}
+
+#unidades-negocio .item-centec-unidad{
+    width: 60%;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    
+    
+}
+
+#unidades-negocio .item-centec{
+    width: 32%;
+    text-align:justify;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    color: #7B7676;
+    
+    
+    
+}
+
+#unidades-negocio .item-don-minero-unidad{
+    width: 70%;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 25px;
+    
+    
+}
+
+#unidades-negocio .item-don-minero{
+  width: 34%;
+    text-align:justify;
+    padding-top: 32px;
+    padding-bottom: 20px;
+    color: #7B7676;
+    
+    
+}
+
+#unidades-negocio .item-torreon-ingles-unidad{
+    width: 44%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+    
+}
+
+
+#unidades-negocio .item-torreon-ingles{
+   width: 32%;
+    text-align:justify;
+    padding-top: 55px;
+    color: #7B7676;
+    
+    
+}
+
+#texto-torreon{
+    
+    margin-top: 82px;
+    
+}
+
+
+
+#unidades-negocio ul li{
+    
+    list-style: none;
+    
+    
+}
+
+
+#unidades-negocio ul li:nth-child(2){
+    
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contenedor-unidades-negocio a{
+    
+    color: green;
+    margin-left: 0;
+    font-size: 18px;
+    background: white;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+    text-align: center;
+    border: 1px green solid;
+    
+    
+
+    
+    
+}
+
+.contenedor-unidades-negocio a:hover{
+    
+    color: white;
+    background: green;
+    transition: 0.5s;
+
+    
+    
+}
+
+
+button.owl-prev, button.owl-next{
+    font-size: 60px !important;
+    color: green;
+
+ 
+}
+
+.item a img:hover{
+    
+    -webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+    transition: 0.5s;
+}
+    
+    
+}
+
+span {
+    
+    color: green;
+    background: white;
+}
+
+
+
+/*SECCION SOPORTE TECNICO */
+
+#soporte-tecnico .contenedor-soporte-tecnico{
+    
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#soporte-tecnico .texto{
+    
+    width: 42%;
+    color: #7B7676;
+    text-align:justify;
+    
+}
+
+#soporte-tecnico a{
+    
+    color: green;
+    font-size: 15px;
+    background: white;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+    border: 1px green solid;
+    
+}
+
+
+ #soporte-tecnico a:hover{
+    
+    color: white;
+    background: green;
+    transition: 0.5s;
+    
+}
+
+  #por-que-trabajar-servicio .item{
+    width: 100%;
+    text-align: center;
+
+       
+}
+
+
+
+
+/*SECCION TRABAJAR CON NOSOTROS */
+
+.contenedor-trabajar{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+#por-que-trabajar .item{
+    width: 28%;
+    text-align: center;
+    color: #7B7676;
+    text-decoration:none;
+    
+    
+}
+
+#por-que-trabajar ul li{
+    
+    list-style: none;
+    color: black;
+    
+    
+}
+
+
+#por-que-trabajar ul li:nth-child(2){
+    
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.contenedor-trabajar a{
+    
+    color: green;
+    margin-left: 0;
+    font-size: 18px;
+    background: white;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+    text-align: center;
+    border: 1px green solid;
+    
+    
+
+    
+    
+}
+
+.contenedor-trabajar a:hover{
+    
+    color: white;
+    background: green;
+    transition: 0.5s;
+
+    
+    
+}
+
+
+
+.contenedor-trabajar-pie{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+#por-que-trabajar-pie .item{
+    width: 28%;
+    text-align:left;
+    color: green;
+    text-decoration:none;
+    margin-left: 50px;
+    
+    
+}
+
+#por-que-trabajar-pie .item-unidades{
+    width: 28%;
+    text-align:left;
+    color: green;
+    text-decoration:none;
+    margin-left: 50px;
+    
+    
+}
+
+#por-que-trabajar-pie ul li{
+    
+    list-style: none;
+    color: black;
+    
+    
+}
+
+
+#por-que-trabajar-pie ul li:nth-child(2){
+    
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+
+
+.contenedor-trabajar-pie p{
+    
+    display: flex;
+    flex-wrap: wrap;
+    color: green;
+    font-size: 15px;
+
+    
+}
+
+.contenedor-trabajar-pie a{
+    
+
+    margin-left: 0;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    text-decoration: none;
+
+
+}
+
+.contenedor-trabajar-pie a:hover{
+    
+    transition: 0.5s;
+    color: green;
+    text-decoration: none;
+
+
+}
+
+
+
+#contacto form{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 77%;
+    margin: auto;
+    
+}
+
+input[type="text"], input[type="email"], input[type="tel"]{
+    
+    width: 49%;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 1px solid green;
+    font-size: 17px;
+     font-family: 'Poppins', sans-serif;
+    
+}
+
+textarea{
+    
+   padding: 10px 0; 
+   border: 0;
+   border-bottom: 1px solid green;
+   font-size: 17px;
+   margin-bottom: 40px;
+   width: 100%;
+   font-size: 17px;
+     font-family: 'Poppins', sans-serif;
+       
+}
+
+#contacto input[type="submit"]{
+    
+    color: green;
+    font-size: 14px;
+    background: white;
+    padding: 14px 24px;
+    width: 166px;
+    margin: auto;
+    display: inline-block;
+    border: 1px green solid;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+#contacto input[type="submit"]:hover{
+    
+    color: white;
+    background: green;
+    transition: 0.5s;
+     font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+
+/*SECCION MAPA */
+
+
+
+.contenedor-mapa h4{
+    
+    font-size: 20px;
+    text-align:center;
+    
+    
+}
+
+
+#mapa{
+    
+    margin-top: 80px;
+
+    
+}
+
+
+
+footer{
+    
+    background: rgb(247,247,247);
+    background: -webkit-linear-gradient(bottom, rgba(247,247,247,0.9247898988697041) 72%, rgba(227,223,216,0.9612044646960347) 100%);
+    background: -o-linear-gradient(bottom, rgba(247,247,247,0.9247898988697041) 72%, rgba(227,223,216,0.9612044646960347) 100%);
+    background: linear-gradient(to top, rgba(247,247,247,0.9247898988697041) 72%, rgba(227,223,216,0.9612044646960347) 100%);
+
+
+    
+}
+
+
+/*SECCION MAPA */
+
+.contenedor-mapa h4{
+    
+    font-size: 20px;
+    text-align:center;
+    
+    
+}
+
+
+/*SECCION PIE DE PAGINA */
+
+
+footer{
+    
+    background: rgb(247,247,247);
+    background: -webkit-linear-gradient(bottom, rgba(247,247,247,0.9247898988697041) 72%, rgba(227,223,216,0.9612044646960347) 100%);
+    background: -o-linear-gradient(bottom, rgba(247,247,247,0.9247898988697041) 72%, rgba(227,223,216,0.9612044646960347) 100%);
+    background: linear-gradient(to top, rgba(247,247,247,0.9247898988697041) 72%, rgba(227,223,216,0.9612044646960347) 100%);   
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+#pie-pagina{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+    font-size: 20px;
+    text-align:center;
+    text-decoration: none;
+    color: green;
+    list-style: none;
+    
+}
+
+/*SECCION MANUALES DE APOYO*/
+
+#manuales-apoyo .contenedor-manuales-apoyo{
+    
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 80px; 
+
+    
+}
+
+
+
+#manuales-apoyo .texto{
+    
+    text-align: justify;    
+    width: 60%
+    
+}
+
+#manuales-apoyo .texto p{
+    
+     text-align: justify;    
+    font-size: 13px;
+    padding-top: 3px;
+    
+}
+
+
+ .contenedor-manuales-apoyo a{
+    
+    color: green;
+    margin-left: 0;
+    font-size: 18px;
+    background: white;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+    text-align: center;
+
+    border: 1px green solid;
+   
+    
+}
+    
+.contenedor-manuales-apoyo a:hover{
+    
+    color: white;
+    background: green;
+    transition: 0.5s;
+
+    
+    
+}
+
+    
+#manuales-apoyo ul li{
+    
+    list-style: none;
+    
+    
+}
+
+
+#manuales-apoyo ul li:nth-child(2){
+    
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+#pie-pagina .item a{
+    
+    
+    
+}
+
+.item{
+
+    font-size: 20px;
+    text-align:left;
+    color: green;
+    
+    
+}
+
+.item ul li{
+    
+    font-size: 15px;
+    list-style: none;
+    color: green;
+    margin-bottom: 10px;    
+
+    
+    
+}
+
+.item ul li:hover{
+    
+   text-decoration: underline;
+    transition: 0.5s;
+    color:green;  
+    
+    
+}
+
+
+.item a{
+    
+   list-style: none;
+    
+    
+}
+
+.logos-pie img{
+    
+    text-align: center;
+    
+}
+
+
+.parrafo p{
+    
+    color:green;
+    text-align: center;
+    font-size: 14px;
+
+    
+}
+
+
+.menu-icon{
+    
+    display:none;
+    
+}
+
+html{
+   scroll-behavior: smooth;
+    
+    
+}
+
+#sobre-nosotros, #unidades-negocio, #productos-destacador, #soporte-tecnico, #por-que-trabajar, #contacto{
+    
+    padding: 10px 0;
+    
+}
+
+#productos-destacados{
+    
+    padding: 40px 0;
+}
+
+.menu-icon{
+    
+    display: none;
+    
+}
+
+.contenedor-productos-centec{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    
+    
+}
+
+
+
+#productos-centec .item{
+    width: 28%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    list-style: none;
+    
+    
+}
+
+
+#productos-centec .item-producto-uno, .item-producto-dos, .item-producto-tres, .item-producto-cuatro{
+    width: 28%;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    
+    
+}
+
+
+#productos-centec ul li{
+    
+    list-style: none;
+    
+    
+}
+
+
+#productos-centec ul li:nth-child(2){
+    
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.contenedor-productos-centec a{
+    
+    color: green;
+    margin-left: 0;
+    font-size: 18px;
+    background: white;
+    padding: 14px 24px;
+    width: 128px;
+    display: inline-block;
+    text-align: center;
+    border: 1px green solid;
+    
+    
+    
+}
+
+.contenedor-productos-centec a:hover{
+    
+    color: white;
+    background: green;
+    transition: 0.5s; 
+}
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE MOVILES*/
+
+@media (max-width:800px){
+
+.contenedor{
+    
+
+    width: 95%;
+    
+}
+
+
+#logo-home{
+    
+    width: 150px;
+    height: 42px;
+}
+    
+   
+.menu-icon{
+    display: block;
+    float: right;
+    width: 40px;
+    height: 35px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+    
+    header nav{
+        
+        position: absolute;
+        top: 50px;
+        left: 0px;
+        height: 340px;
+        background:white;
+        width: 100%;
+        display: none;
+        border: gray solid 1px;
+    }
+    header nav ul{
+      flex-direction: column;  
+       
+    }
+    
+    header nav ul li{
+        margin-bottom: 15px;
+        border-bottom: 10px;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    header nav ul li:hover{
+        text-decoration:underline;
+        transition: 0.5s;
+    }
+    
+    header{
+    
+    background-image: url(../img/banner/prueba.jpg);
+    height: 78vh;
+    background-size: cover;
+}
+
+
+    h1{
+        
+        font-size: 27px;
+        
+    }
+    
+    h2{
+        
+        font-size: 19px;
+        margin-right: 20px;
+        
+    }
+    
+      h3{
+        font-size: 30px;
+        margin-left: 20px;
+        
+    }
+    
+#contenedor-titulo-flex{
+    
+    margin: 10vh 4vh;
+ 
+    
+}
+
+    
+
+/*SECCIÓN SOBRE NOSOTROS*/
+
+    #sobre-nosotros .contenedor-sobrenosotros{
+    
+    flex-direction: column;
+    text-align: justify;
+    
+}
+   
+    #sobre-nosotros h3{
+    
+    font-size: 20px;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+  
+    
+    
+    
+    #sobre-nosotros img{
+    
+    width: 80%;
+    margin-left: 40px;
+    
+}
+    
+    #sobre-nosotros .texto{
+    
+     width: 81%;
+    text-align: justify;
+    margin-left: 40px;
+    font-size: 14px;
+    
+}
+    /* SECCIÓN UNIDADES NEGOCIO*/
+        
+#unidades-negocio .contenedor-unidades-negocio{
+
+    text-align: justify;
+    flex-direction: column;
+
+
+
+       
+}
+    
+
+    
+
+#unidades-negocio .item-alcomaquinas, #unidades-negocio .item-ambientek, #unidades-negocio .item-centec, #unidades-negocio .item-don-minero, #unidades-negocio .item-torreon-ingles {
+        
+        
+        width: 90%;
+        flex-direction: column;
+        text-align:justify;
+        font-size:14px; 
+        margin-right: 12px;
+
+        
+    }
+    
+    
+/*SECCIÓN SOBRE NOSOTROS*/
+
+    #soporte-tecnico .contenedor-soporte-tecnico{
+    
+    flex-direction: column;
+    text-align: justify;
+    
+}
+    #soporte-tecnico img{
+    
+    width: 60%;
+    margin-left: 75px;
+    
+}
+    
+    #soporte-tecnico .texto{
+    
+     width: 81%;
+    margin-left: 35px;
+        text-align:justify;
+        font-size: 14px;
+    
+}
+
+    #productos-destacados h3{
+ 
+        margin-right: 10px;
+
+       
+}
+
+.contenedor-trabajar{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+    
+    .contenedor-trabajar-pie{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    
+}
+    
+    .contenedor-trabajar-pie p{
+    
+
+    color: green;
+    font-size: 14px;
+
+    
+}
+    
+    #por-que-trabajar-pie .item{
+    width: 85%;
+    padding-top: 20px;
+    margin-left: 25px;
+    font-size: 15px;
+
+       
+}
+   
+    #por-que-trabajar-pie .item-unidades{
+    width: 85%;
+    padding-top: 20px;
+    margin-left: 1px;
+    font-size: 15px;
+
+       
+}
+    .contenedor-trabajar-pie p{
+    
+
+    color: green;
+    font-size: 14px;
+
+    
+}
+
+    
+    
+    
+    #por-que-trabajar h3{
+ 
+        margin-right: 25px;
+
+       
+}
+    
+    
+    #por-que-trabajar .item{
+    width: 85%;
+    padding-top: 20px;
+    margin-left: 25px;
+    font-size: 15px;
+
+       
+}
+    
+    .item ul{
+        
+        padding: 0;
+    }
+
+
+.parrafo p{
+        
+    font-size: 9px;
+    width: 85%;
+    margin-left: 28px;
+    
+    }
+    
+       
+  iframe{
+        
+        width: 100%;
+        
+    }
+    
+    footer{
+        
+        font-size: 10px;
+        
+        
+    }
+    
+    #contacto h3{
+ 
+        margin-right: 15px;
+
+       
+}
+    
+    
+    input[type="text"], input[type="email"], input[type="tel"]{
+    
+    width: 85%;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border: 0;
+    border-bottom: 1px solid green;
+    font-size: 15px;
+     font-family: 'Poppins', sans-serif;
+    
+}
+
+textarea{
+    
+   padding: 10px 0; 
+   border: 0;
+   border-bottom: 1px solid green;
+   font-size: 17px;
+   margin-bottom: 40px;
+   width: 100%;
+   font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+       
+}
+
+    
+    
+#contacto input[type="submit"]{
+    
+    color: green;
+    font-size: 15px;
+    background: white;
+    padding: 14px 24px;
+    width: 166px;
+    margin: auto;
+    display: inline-block;
+    border: 1px green solid;
+     font-family: 'Poppins', sans-serif;
+    
+}
+
+  
+
+
+
+
+
+/*RESPONSIVE TABLET*/
+
+@media(min-width:600px) and (max-width:800px){}
+    
+
+
+
+
+
+
+
+
